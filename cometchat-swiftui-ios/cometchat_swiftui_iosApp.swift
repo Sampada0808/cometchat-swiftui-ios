@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct cometchat_swiftui_iosApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChatHeaderView()
         }
     }
 }
