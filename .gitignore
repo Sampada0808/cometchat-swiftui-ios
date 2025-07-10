@@ -12,9 +12,12 @@
 DerivedData/
 build/
 *.xcuserstate
-*.xcworkspace
-*.xcuserdata/
+xcuserdata/
 *.hmap
+
+# Optionally ignore generated workspaces (uncomment below if needed)
+# *.xcworkspace
+# !project.xcworkspace
 
 # Playgrounds
 timeline.xctimeline
@@ -41,7 +44,7 @@ Carthage/Build/
 # Swift
 *.swp
 
-## Obj-C/Swift specific
+# Obj-C/Swift specific
 *.hmap
 
 # Fastlane
