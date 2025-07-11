@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum MessageHeaderConstants: String {
+enum ChatHeaderConstants {
     case member
     case members
     case online
